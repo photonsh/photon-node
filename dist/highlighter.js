@@ -14,7 +14,7 @@ let highlighter = (() => {
           url: 'https://api.photon.sh/snippets',
           method: 'post',
           headers: {
-            Authorization: `APIKey ${apiKey}`,
+            Authorization: `Token ${apiKey}`,
             'Content-Type': 'text/html',
             'Content-Encoding': 'gzip',
             'Accept-Encoding': 'gzip',
