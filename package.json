@@ -1,0 +1,42 @@
+{
+  "name": "photon-node",
+  "description": "photon-node is a Node.js library for Photon",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/photonsh/photon-node.git"
+  },
+  "license": "MIT",
+  "author": "Photon <support@photon.sh> (https://photon.sh)",
+  "bugs": {
+    "url": "https://github.com/photonsh/photon-node/issues"
+  },
+  "keywords": [
+    "photon",
+    "highlight",
+    "syntax",
+    "nodejs"
+  ],
+  "homepage": "https://photon.sh",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "parse5": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "scripts": {
+    "build": "babel -d ./dist ./src"
+  }
+}
