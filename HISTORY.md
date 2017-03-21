@@ -1,6 +1,7 @@
 v0.1.2 / 2017-03-21
 ===================
 
+ * Added npmignore
  * figure -> div swap
  * Versions bump
 

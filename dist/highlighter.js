@@ -46,7 +46,7 @@ let highlighter = (() => {
 
           highlightedNode.parentNode = node.parentNode;
 
-          if (highlightedNode.nodeName === 'figure') {
+          if (highlightedNode.nodeName === 'div') {
             newNode = highlightedNode;
           } else {
             newNode.childNodes[0] = highlightedNode;
