@@ -2,7 +2,7 @@
 
 photon-node is a Node.js library for [Photon](https://photon.sh).
 
-![photon](https://raw.githubusercontent.com/photonsh/photon-node/master/demo.png)
+![Photon](https://raw.githubusercontent.com/photonsh/photon-node/master/demo.png)
 
 *We have a lot of plugins but you do not have to use them all!*
 
