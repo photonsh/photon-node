@@ -18,4 +18,4 @@ photon-node is a Node.js library for [Photon](https://photon.sh).
 
 ## License
 
-[MIT License](https://github.com/photonsh/photon-js/LICENSE)
+[MIT License](https://github.com/photonsh/photon-node/LICENSE)
